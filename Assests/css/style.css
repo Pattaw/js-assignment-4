@@ -1,0 +1,35 @@
+*{
+    text-transform:capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    background-color: #23343d;
+}
+.welcomeParent{
+    min-height: calc(100vh - 57px) !important;
+}
+.element,.navbar,.welcome{
+    box-shadow: -1px -3px 20px 10px rgb(38, 37, 37) !important;
+}
+.welcome{
+    width: 50rem;
+    height: 10rem;
+}
+input:focus{
+    border-color: rgb(98, 124, 133) !important;
+    outline: none;
+}
+::placeholder{
+    color: #eee;
+}
+
+#incorrect{
+    color: red !important;
+    
+    
+}
+#notValidEmail{
+    text-align: left !important;
+}
